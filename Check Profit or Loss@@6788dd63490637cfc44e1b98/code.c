@@ -3,6 +3,8 @@
 int main(){
     int cp,sp;
     scanf("%d %d",&cp,&sp);
-    (sp>cp)?printf("Profit"):printf("Loss");
+    if(sp>cp){printf("Profit");}
+    else if (cp>sp){printf("Loss");}
+    else{printf("No Profit No Loss");}
     return 0;
 }
