@@ -4,6 +4,7 @@
 int main() {
     char color;
     scanf("%c",&color);
-    ((color=='R')?printf("Stop"):((a=="G")?printf("Go"):((a=="Y")?printf("Slow Down"):printf("Invalid input"))));
+
+    if (color='R'){printf("Stop");}
     return 0;
 }
