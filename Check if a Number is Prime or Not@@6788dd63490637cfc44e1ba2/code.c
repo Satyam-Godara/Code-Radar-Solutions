@@ -7,7 +7,7 @@ int main(){
         prime=1
         for (j=2;j*j<=i;j++){
             if(i%j==0){prime=0; 
-            break;}
+            break}
         }
         if (prime==1){printf("Prime");}
         else{printf("Not Prime");}
