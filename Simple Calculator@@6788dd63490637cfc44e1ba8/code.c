@@ -8,8 +8,9 @@ int main() {
     if (c=='+'){printf("%.0f",(a+b));}
     else if(c=='-'){printf("%.0f",(a-b));}
     else if(c=='*'){printf("%.0f",(a*b));}
-    else if(c=='/'){printf("%.0f",(a/b));}
     else if(c=='/' && b==0){printf("error");}
+    else if(c=='/'){printf("%.0f",(a/b));}
+    
     else{printf("error");}
     return 0;
 }
