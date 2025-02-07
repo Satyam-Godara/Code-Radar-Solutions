@@ -2,12 +2,12 @@
 
 
 int main() {
-    char color;
-    scanf("%c",&color);
+    char c;
+    scanf("%c",&c);
 
-    if (color='R'){printf("Stop");}
-    else if(color='G'){printf("Go");}
-    else if(color='Y'){printf("Slow Down");}
+    if (c='R'){printf("Stop");}
+    else if(c='G'){printf("Go");}
+    else if(c='Y'){printf("Slow Down");}
     else {printf("Invalid input");}
     return 0;
 }
