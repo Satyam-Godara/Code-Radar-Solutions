@@ -7,4 +7,5 @@ int main(){
     for (i=a;i>=1;i--){
         printf("%c ",i*s);
     }
+    return 0;
 }
