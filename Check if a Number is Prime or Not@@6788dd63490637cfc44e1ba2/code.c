@@ -12,4 +12,5 @@ int main(){
         if (prime==1){printf("Prime");}
         else{printf("Not Prime");}
     }
+    return 0;
 }
