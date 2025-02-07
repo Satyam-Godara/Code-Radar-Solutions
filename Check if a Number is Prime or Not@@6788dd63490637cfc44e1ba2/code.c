@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a,prime;
+    int a,prime,i,j;
     scanf("%d",&a);
     for(i=2;i<=a;i++){
         prime=1;
