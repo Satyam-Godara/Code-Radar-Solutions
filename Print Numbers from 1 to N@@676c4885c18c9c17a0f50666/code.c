@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int a,isprime,i,j;
+    int a,i;
     scanf("%d",&a);
-    for (i=2;i<=a;i++){
-        isprime=1;
-        for (j=2;j*j<=i;j++){
-            if (i%j==0){isprime=0; break;}
-        }
-        if (isprime){printf("%d\n",i);}
-    }
+    
+    for(i=1;i<=a;i++){printf("%d\n",i);}
+
+
 return 0;
 }
