@@ -9,7 +9,7 @@ int main()
     int num, n, newNum;
 
     /* Input number from user */
-    printf("Enter any number: ");
+    // printf("Enter any number: ");
     scanf("%d %d",&num,&n);
 
 
