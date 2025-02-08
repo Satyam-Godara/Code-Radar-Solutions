@@ -5,7 +5,7 @@ int main() {
 //    printf("Enter an uppercase character you want to print in the last row: ");
    scanf("%d", &input);
    for (i = 1; i <=input; ++i) {
-    alphabet='A'
+    alphabet='A';
       for (j = 1; j <= i; ++j) {
          printf("%c ", alphabet);
       }
