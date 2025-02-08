@@ -1,22 +1,24 @@
-// Online C compiler to run C program online
-#include <stdio.h>
-#include<math.h>
+/**
+ * C program to set the nth bit of a number
+ */
 
-// Function to set Kth bit
-int number( int n, int k){
-	
-	int x = (int)pow(2,k-1);
-	// Checking the Kth bit is set or not
-	if(n & x) return n;
-	else{
-		return n + x;
-	}
-}
-// Driver code
-int main() {
-	
-	int result = number(5, 2);
-	printf("%d",result);
-	
-	return 0;
+#include <stdio.h>
+
+int main()
+{
+    int num, n, newNum;
+
+    /* Input number from user */
+    printf("Enter any number: ");
+    scanf("%d %d",&num,&n);
+
+
+    /* Left shift 1, n times and perform bitwise OR with num */
+    newNum = (1 << n) | num;
+
+    // printf("Bit set successfully.\n\n");
+    // printf("Number before setting %d bit: %d (in decimal)\n", n, num);
+    printf("%d",newNum);
+
+    return 0;
 }
