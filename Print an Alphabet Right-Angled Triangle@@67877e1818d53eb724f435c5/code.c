@@ -8,8 +8,8 @@ int main() {
     
       for (j = 1; j <= i; ++j) {
          printf("%c ", alphabet);
-      }
-      ++alphabet;
+      
+      ++alphabet;}
       alphabet='A';
       printf("\n");
    }
