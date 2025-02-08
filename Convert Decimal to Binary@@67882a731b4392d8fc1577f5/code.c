@@ -11,4 +11,5 @@ void main() {
         b=b+(pow(10,i)*a);
     }
     printf("%d",b);
+    return 0;
 }
