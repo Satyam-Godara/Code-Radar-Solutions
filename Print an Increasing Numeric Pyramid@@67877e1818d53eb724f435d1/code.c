@@ -3,9 +3,8 @@
 int main(){
     int a,i,j;
     scanf("%d",&a);
-
-    for (i=0;i<=a;i++){
-        int b=0;
+    for (i=(a-1);i<=0;i--){
+        printf(" ");
         for (j=1;j<=i;j++){
             printf("%d ",j);
         }
