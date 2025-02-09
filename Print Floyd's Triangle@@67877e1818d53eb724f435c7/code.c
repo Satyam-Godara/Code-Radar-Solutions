@@ -5,12 +5,12 @@ int main(){
     scanf("%d",&a);
 
     for (i=1;i<=a;i++){
-        for (j=1;j<=i;j++){
-            for(k=i;k<=(i+j);k++){
+        // for (j=1;j<=i;j++){
+            for(k=i;k<=(i);k++){
                 printf("%d ",k);
             }
             printf("\n");
-        }
+        // }
     }
 
 
