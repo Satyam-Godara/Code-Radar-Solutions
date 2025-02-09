@@ -12,8 +12,9 @@ int main(){
         for(k=0;k<(a-1);k++){
         (k==0 || k==(a-1))?printf("*"):printf(" ");
         }
+        printf("\n");
     }
-    printf("\n");
+    
     for (i=0;i<a;i++){printf("*");}
     return 0;
 }
