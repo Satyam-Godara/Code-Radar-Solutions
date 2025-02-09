@@ -1,28 +1,30 @@
 #include <stdio.h>
-
-#include <stdio.h>
-
-int main() {
-    int n = 5;
-
-    // First outer loop to iterator through each row
-    for (int i = 0; i < 2 * n - 1; i++) {
-
-        // Assigning values to the comparator according to
-        // the row number
-        int comp;
-        if (i < n) comp = 2 * (n - i) - 1;
-        else comp = 2 * (i - n + 1) + 1;
-
-        // First inner loop to print leading whitespaces
-        for (int j = 0; j < comp; j++)
-            printf("");
-
-        // Second inner loop to print stars *
-        for (int k = 0; k < 2 * n - comp; k++) {
-            printf(" *");
-        }
+ 
+int main()
+{
+    int number, i, k, count = 1;
+ 
+    // printf("Enter number of rows: \n");
+    scanf("%d", &number);
+    count = number - 1;
+    for (k = 1; k <= number; k++)
+    {
+        for (i = 1; i <= count; i++)
+            printf(" ");
+        count--;
+        for (i = 1; i <= 2 * k - 1; i++)
+            printf("*");
         printf("\n");
-    }
-    return 0;
+     }
+     count = 1;
+     for (k = 1; k <= number - 1; k++)
+     {
+         for (i = 1; i <= count; i++)
+             printf(" ");
+         count++;
+         for (i = 1 ; i <= 2 *(number - k)-  1; i++)
+             printf("*");
+         printf("\n");
+      }
+      return 0;
 }
