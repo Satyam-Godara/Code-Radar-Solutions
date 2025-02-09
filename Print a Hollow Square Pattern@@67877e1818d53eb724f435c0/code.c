@@ -9,8 +9,8 @@ int main(){
     printf("\n");
     
     for (j=0;j<(a-2);j++){
-        for(k=0;k<(a-1);k++){
-        (k==0 || k==(a-2))?printf("*"):printf(" ");
+        for(k=0;k<(a);k++){
+        (k==0 || k==(a-1))?printf("*"):printf(" ");
         }
         printf("\n");
     }
