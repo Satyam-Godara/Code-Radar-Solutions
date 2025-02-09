@@ -8,7 +8,7 @@ int main(){
     for (i=0;i<a;i++){printf("*");}
     printf("\n");
     
-    for (j=1;j<(a-2);j++){
+    for (j=0;j<(a-2);j++){
         for(k=0;k<(a-1);k++){
         (k==0 || k==(a-1))?printf("*"):printf(" ");
         }
