@@ -14,10 +14,10 @@ int main()
     scanf("%d", &num);
 
     /* Move first bit of 1 to highest order */
-    msb = 1 << (BITS - 1);
+    ;
 
     /* Perform bitwise AND with msb and num */
-    if(num & msb)
+    if(num &(1<<31))
         printf("Set");
     else
         printf("Not Set");
