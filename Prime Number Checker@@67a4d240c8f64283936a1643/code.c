@@ -1,14 +1,14 @@
-#include <stdbool.h>
+// #include <stdbool.h>
 #include <stdio.h>
 
-bool isPrime(int num) {
+int isPrime(int num) {
   if (num <= 1) {
-    return false;
+    return 0;
   }
   for (int i = 2; i*i <= num; i++) {
     if (num % i == 0) {
-      return false;
+      return 0;
     }
   }
-  return true;
+  return 1;
 }
