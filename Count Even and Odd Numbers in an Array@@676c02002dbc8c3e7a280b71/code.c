@@ -3,7 +3,8 @@
 int main(){
     char arr[10];
     int num;
-    int e=0,o=0;
+    int e=0;
+    int o=0;
     scanf("%d",&num);
     for(int i=0;i<num;i++){
         scanf("%d",&a[i]);
