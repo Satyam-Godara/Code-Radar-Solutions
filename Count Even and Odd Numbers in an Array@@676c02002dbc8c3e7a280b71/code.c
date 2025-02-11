@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    char arr[10];
+    
     int num;
     int e=0;
     int o=0;
     scanf("%d",&num);
+    char arr[num-1];
     for(int i=0;i<num;i++){
         scanf("%d",&arr[i]);
     }
-    for(int j=0;j<(sizeof(arr)-5);j++){
+    for(int j=0;j<(sizeof(arr));j++){
         if(arr[j]%2==0){e+=1;}
         else{o+=1;}
 
