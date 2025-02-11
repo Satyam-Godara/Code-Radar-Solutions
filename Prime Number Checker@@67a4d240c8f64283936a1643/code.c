@@ -11,7 +11,13 @@
 //     return 0;
 // }
 
-int isPrime(){
-    printf("1");
+int isPrime(int x){
+    int x,i,j;
+    for(i=2;i*i<=x;j++){
+        if(x%i==0){
+            return 0;
+        }
+        else{return 1;}
+        }
     
 }
