@@ -36,7 +36,7 @@
 int main(){
     int a,b,c;
     scanf("%d %d",&a,&b);
-    c= a & (~(1<<b));
+    c= a & (0<<b);
     printf("%d",c);
     return 0;
 }
