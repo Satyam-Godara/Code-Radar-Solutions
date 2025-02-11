@@ -42,7 +42,7 @@ int main(){
     int num,size,position;
 
     scanf("%d",&num);
-    size=sizeof(num);
+    size=sizeof(int);
     printf("%d",size);
 
 }
