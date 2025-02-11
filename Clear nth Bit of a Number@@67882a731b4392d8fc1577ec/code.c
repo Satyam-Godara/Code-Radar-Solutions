@@ -34,9 +34,9 @@
 #include<stdio.h>
 
 int main(){
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-    new= a & (~(1<<b));
-    printf("%d",new);
+    c= a & (~(1<<b));
+    printf("%d",c);
     return 0;
 }
