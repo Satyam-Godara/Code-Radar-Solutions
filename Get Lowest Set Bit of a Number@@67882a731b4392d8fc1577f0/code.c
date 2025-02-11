@@ -40,6 +40,7 @@
 
 int main(){
     int num,size,position;
+    
     scanf("%d",&a);
     size=sizeof(a);
     printf("%d",size);
