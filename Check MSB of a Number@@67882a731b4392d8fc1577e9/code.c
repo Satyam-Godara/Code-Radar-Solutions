@@ -1,26 +1,7 @@
-/**
- * C program to check Most Significant Bit (MSB) of a number using bitwise operator
- */
+#include<stdio.h>
 
-#include <stdio.h>
-#define BITS sizeof(int) * 8 // Total bits required to represent integer
-
-int main()
-{
-    int num, msb;
-
-    /* Input number from user */
-    // printf("");
-    scanf("%d", &num);
-
-    /* Move first bit of 1 to highest order */
-    ;
-
-    /* Perform bitwise AND with msb and num */
-    if(num &(1<<31))
-        printf("Set");
-    else
-        printf("Not Set");
-
-    return 0;
+int main(){
+    int a;
+    scanf("%d",&a);
+    (a & (1<<31))?printf("Set"):printf("Not Set");
 }
