@@ -11,7 +11,7 @@
 //     return 0;
 // }
 
-int isPrime(){
+void isPrime(){
     printf("1");
     
 }
