@@ -6,7 +6,7 @@ int main(){
     while(t--){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isPrime(num));
+        printf("%d\n",num);
     }
     return 0;
 }
