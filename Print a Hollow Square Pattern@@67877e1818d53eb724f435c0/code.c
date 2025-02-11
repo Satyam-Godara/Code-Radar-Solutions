@@ -38,4 +38,5 @@ int main(){
         }
     
     for(i=0;i<=a;i++){printf("*");}
+    return 0;
 }
