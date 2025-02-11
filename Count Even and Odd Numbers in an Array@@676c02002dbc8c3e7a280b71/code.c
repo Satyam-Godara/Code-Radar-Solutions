@@ -7,10 +7,10 @@ int main(){
     int o=0;
     scanf("%d",&num);
     for(int i=0;i<num;i++){
-        scanf("%d",&a[i]);
+        scanf("%d",&arr[i]);
     }
     for(int j=0;j<sizeof(arr);j++){
-        if(a[j]%2==0){e+=1;}
+        if(arr[j]%2==0){e+=1;}
         else{o+=1;}
 
     }
