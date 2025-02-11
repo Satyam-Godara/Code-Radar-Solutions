@@ -43,7 +43,7 @@ int main(){
 
     scanf("%d",&num);
     position=31;
-    for (i=0;i<32;i++){if(num & i){position=i;}}
+    for (i=0;i<32;i++){if(num & i){position=i; break;}}
     printf("%d",position);
     return 0;
 }
