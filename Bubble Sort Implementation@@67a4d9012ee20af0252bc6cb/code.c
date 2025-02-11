@@ -1,7 +1,7 @@
 // Your code here...
 # include<stdio.h>
 
-int bubbleSort(char arr ,int n){
+int bubbleSort(char arr[10] ,int n){
     for(int j=0;j<(n-1);j++){
         for(int k=0;k<(n-j-1);k++){
             if(arr[k]>arr[k+1]){
@@ -14,7 +14,7 @@ int bubbleSort(char arr ,int n){
     return 0;
 }
 
-int printArray(char arr, int n){
+int printArray(char arr[10], int n){
     for(int x=0;x<n;x++){
         printf("%d ",arr[x]);
     }
