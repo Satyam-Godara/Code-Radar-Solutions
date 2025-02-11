@@ -5,6 +5,7 @@ int main(){
 
     if(a==0){printf("0");}
     for(i=0;num>0;i++){a[i]=num%2; num=num/2;}
-    for(j=0;j<num;j++){printf("%d",a[j]);}
+    for(i=i-1;i>=0;i--){printf("%d",a[i]);}
     return 0;
 }
+
