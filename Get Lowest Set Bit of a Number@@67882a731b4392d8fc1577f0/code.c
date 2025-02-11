@@ -39,10 +39,11 @@
 #include<stdio.h>
 
 int main(){
-    int num,size,position;
+    int num,position,i;
 
     scanf("%d",&num);
-    size=sizeof(int);
-    printf("%d",size);
-
+    position=31;
+    for (i=0;i<32;i++){if(num & i){position=i;}}
+    printf("%d",position);
+    return 0;
 }
