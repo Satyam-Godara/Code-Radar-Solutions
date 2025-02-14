@@ -9,7 +9,7 @@ int main(){
     int l= strlen(a);
     for(int i=0;i<=strlen(a);i++){
         l--;
-        b[i]=a[l+1];
+        b[i]=a[l];
         
     }
     printf("%s",b);
