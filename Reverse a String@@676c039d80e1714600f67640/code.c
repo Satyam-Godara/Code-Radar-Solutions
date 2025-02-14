@@ -6,11 +6,11 @@ int main(){
     char b[10];
 
     scanf("%s",&a);
-    // int l= strlen(a);
-    // for(int i=0;i<l;i++){
-    //     l--;
-    //     b[i]=a[l];
-    // }
-    printf("%s",strrev(a));
+    int l= strlen(a);
+    for(int i=0;i<l;i++){
+        l--;
+        b[i]=a[l];
+    }
+    printf("%s",b);
     return 0;
 }
