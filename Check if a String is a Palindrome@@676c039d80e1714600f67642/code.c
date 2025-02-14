@@ -15,7 +15,7 @@ int main(){
     int g;
     for(j==0;j<=strlen(a);j++){
         if(a[j]==b[j]){g=1;}
-        else{g=0;}
+        else{g=0;break;}
     }
     (g==0)?printf("No"):printf("Yes");
     return 0;
