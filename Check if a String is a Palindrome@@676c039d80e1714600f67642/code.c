@@ -7,7 +7,7 @@ int main(){
     char a[10], b[10];
     scanf("%s",&a);
     int l=strlen(a);
-    for(int i=0;i<strlen(a);i++){
+    for(int i=0;i<=strlen(a);i++){
         l--;
         b[i]=a[l];
     }
