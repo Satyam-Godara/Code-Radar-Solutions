@@ -2,8 +2,8 @@
 #include<string.h>
 
 int main(){
-    char a[100];
-    char b[100];
+    char a[50];
+    char b[50];
 
     scanf("%s",&a);
     int l= strlen(a);
