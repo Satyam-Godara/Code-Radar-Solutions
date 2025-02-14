@@ -11,7 +11,11 @@ int main(){
         l--;
         b[i]=a[l];
     }
-    if(a==b){printf("Yes");}
-    else{printf("No");}
+    int g;
+    for(j==0;j<=strlen(a);j++){
+        if(a[j]==b[j]){g=1;}
+        else{g=0;}
+    }
+    (g==0)?printf("No"):printf("Yes");
     return 0;
 }
