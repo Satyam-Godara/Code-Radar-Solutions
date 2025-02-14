@@ -8,8 +8,9 @@ int main(){
     scanf("%s",&a);
     int l= strlen(a);
     for(int i=0;i<=l;i++){
-        b[i]=a[l-1];
         l--;
+        b[i]=a[l+1];
+        
     }
     printf("%s",b);
     return 0;
