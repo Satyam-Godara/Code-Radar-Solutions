@@ -17,6 +17,6 @@ int main(){
         return inc || dec;
     }
 
-    (!(isMonotonic()))?printf("YES"):printf("NO");
+    (isMonotonic())?printf("YES"):printf("NO");
     return 0;
 }
