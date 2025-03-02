@@ -4,10 +4,10 @@ int main(){
     int prime,n,arr[20],count=0;
 
     int isPrime(int x){
-        int p=0;
+        int p=1;
         // if(x==1 || x==2){return 1;}
         for(int z=2;z*z<=x;z++){
-            if(x%z==0){p=1;}
+            if(x%z==0){p=0;}
         }
         return p;
     }
