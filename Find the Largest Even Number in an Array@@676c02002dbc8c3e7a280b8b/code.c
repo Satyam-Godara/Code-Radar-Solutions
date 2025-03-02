@@ -9,7 +9,7 @@ int main(){
     }
 
     for(int j=0;j<n;j++){
-        if(j%2==0){count+=1;if(j>max){max=j;}}
+        if(arr[j]%2==0){count+=1;if(arr[j]>max){max=arr[j];}}
     }
     (count==0)?printf("-1"):printf("%d",max);
     return 0;
