@@ -9,14 +9,14 @@ int main(){
     }
 
     int isMonotonic(){
-        int inc=0,dec=0;
+        int inc=1,dec=1;
         for(int j=0; j<n-1;j++){
-            if(arr[j]>arr[j+1]){inc=1;}
-            if(arr[j]<arr[j+1]){dec=1;}
+            if(arr[j]>arr[j+1]){inc=0;}
+            if(arr[j]<arr[j+1]){dec=0;}
         }
         return inc || dec;
     }
 
-    (isMonotonic())?printf("YES"):printf("NO");
+    (!(isMonotonic()))?printf("YES"):printf("NO");
     return 0;
 }
