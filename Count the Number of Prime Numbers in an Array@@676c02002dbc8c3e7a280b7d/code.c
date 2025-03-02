@@ -5,8 +5,8 @@ int main(){
 
     int isPrime(int x){
         int p=0;
-        if(x==1 || x==2){return 1;}
-        for(int z=2;z*z<x;z++){
+        // if(x==1 || x==2){return 1;}
+        for(int z=2;z*z<=x;z++){
             if(x%z==0){p=1;}
         }
         return p;
@@ -14,7 +14,7 @@ int main(){
 
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        scanf("%d",&arr);
+        scanf("%d",&arr[i]);
     }
 
     for(int j=0;j<n;j++){
