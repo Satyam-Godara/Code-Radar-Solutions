@@ -6,7 +6,7 @@ int main(){
     int isPrime(int x){
         int p=1;
         if(x==1 || x==0){p=1; return p;}
-        for(int z=2;z*z<=x;z++){
+        for(int z=2;z*z<x;z++){
             if(x%z==0){p=0;}
         }
         return p;
