@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int arr[20],n,max=0,count=0;
+    int arr[20],n,max=-10,count=0;
     scanf("%d",&n);
 
     for(int i=0;i<n;i++){
