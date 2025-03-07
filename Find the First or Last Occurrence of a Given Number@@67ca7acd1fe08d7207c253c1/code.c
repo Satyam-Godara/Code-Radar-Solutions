@@ -6,7 +6,7 @@ int findOccurrence(int *arr, int n, int target, char mode ){
 
     if(mode='L'){
         for(int j=n-1;j>=0;j--){
-            if(arr[j]==target){a=n-j;break;}
+            if(arr[j]==target){a=j;break;}
         }
     }
     else if(mode='F'){for(int i=0;i<n;i++){
