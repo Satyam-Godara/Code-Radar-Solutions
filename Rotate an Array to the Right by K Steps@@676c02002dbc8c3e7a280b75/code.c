@@ -38,7 +38,7 @@ int main(){
     for(int h=0;h<k;h++){arr[h]=arr1[h];}
 
     for(int l=0;l<a;l++){
-        printf("%d\n",arr[l]);
+        printf("%d ",arr[l]);
 
     }
     return 0;
