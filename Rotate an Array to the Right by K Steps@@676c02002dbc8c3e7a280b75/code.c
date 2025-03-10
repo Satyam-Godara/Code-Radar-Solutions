@@ -14,7 +14,7 @@ int main(){
 
     int k;
     scanf("%d",&k);
-
+    if(k>a){k=k-a;}
 
     for(int j=0;j<k;j++){arr1[j]= arr[j+(a-k)];}
     //     printf("\nList1\n");
