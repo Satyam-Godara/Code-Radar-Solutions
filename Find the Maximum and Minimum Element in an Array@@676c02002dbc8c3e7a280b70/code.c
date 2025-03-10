@@ -7,8 +7,8 @@ int main(){
     }
     int min=0;
     int max=0;
-    for(int j=0;j<a;j++){if(arr[j]>max){max=arr[j];}}
-    for(int j=0;j<a;j++){if(arr[j]<min){min=arr[j];}}
+    for(int j=0;j<a;j++){if(arr[j] > max){max = arr[j];}}
+    for(j=0;j<a;j++){if(arr[j] < min){min = arr[j];}}
 
     printf("%d %d",min,max);
     return 0;
