@@ -10,7 +10,7 @@ int main(){
     int m=1;
     for(int i=0;i<a;i++){
         for(int j=0;j<a;j++){
-            if(i*j >m){m= i*j;}
+            if(arr[i]*arr[j] >m){m= arr[i]*arr[j];}
         }
     }
     printf("%d",m);
