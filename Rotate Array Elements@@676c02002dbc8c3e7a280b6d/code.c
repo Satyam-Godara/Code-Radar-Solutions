@@ -9,8 +9,6 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for(int l=0;l<a;l++){
-        printf("%d  ",arr[l]);}
 
     int k;
     scanf("%d",&k);
