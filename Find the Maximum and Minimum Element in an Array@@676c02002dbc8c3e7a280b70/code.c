@@ -6,9 +6,9 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int min=-1;
     int max=0;
     for(int j=0;j<a;j++){if(arr[j] > max){max = arr[j];}}
+    int min=max;
     for(int j=0;j<a;j++){if(arr[j] < min){min = arr[j];}}
 
     printf("%d %d",min,max);
