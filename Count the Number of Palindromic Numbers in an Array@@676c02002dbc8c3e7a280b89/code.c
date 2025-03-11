@@ -31,7 +31,7 @@ int main(){
     }
     int count=0;
     for(int i=0;i<n;i++){
-        if(isPalindrome(arr[i])==1){count+=1;}
+        if(isPalindrome(arr[i])==1 && arr[i]>0 ){count+=1;}
     }
     printf("%d",count);
     return 0;
