@@ -15,6 +15,12 @@ int main(){
                 arr[a]=0;
             }
         }
+        if(arr[i-1]==0){
+            for(int j=i-1;j<a;j++){
+                arr[j]=arr[j+1];
+                arr[a]=0;
+            }
+        }
     }
     for(int i=0;i<a;i++){
         printf("%d ",arr[i]);
