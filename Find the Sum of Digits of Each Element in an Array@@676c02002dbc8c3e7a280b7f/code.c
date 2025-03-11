@@ -2,6 +2,7 @@
 
 int sum(int a){
     int n=0;
+    if(a<0){a=a*-1;}
     while(a>0){
         n+=a%10;
         a=a/10;
