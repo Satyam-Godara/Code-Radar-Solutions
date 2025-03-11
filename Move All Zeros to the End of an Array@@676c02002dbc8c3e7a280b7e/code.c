@@ -15,7 +15,7 @@ int main(){
                 arr[a]=0;
             }
         }
-        if(arr[i-1]==0 ){
+        if(arr[i-1]==0 && i>0){
             for(int j=i-1;j<a-1;j++){
                 arr[j]=arr[j+1];
                 arr[a]=0;
