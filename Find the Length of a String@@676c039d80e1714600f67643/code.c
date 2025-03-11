@@ -3,6 +3,6 @@
 int main(){
     char arr[20][20];
     scanf("%s",&arr);
-    printf("%d",strlen(arr));
+    printf("%d",strlen(arr[][]));
 
 }
