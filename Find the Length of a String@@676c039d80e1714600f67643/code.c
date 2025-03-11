@@ -1,8 +1,8 @@
 #include<stdio.h>
-
+#include<string.h>
 int main(){
     char arr[20];
     scanf("%s",&arr);
-    printf("%d",sizeof(arr)/4);
+    printf("%d",strlen(arr));
 
 }
