@@ -19,7 +19,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubbleSort(arr[],n);
+    bubbleSort(arr,n);
     if(n%2==0){int h=arr[(n)/2]+arr[(n-2)/2];h=h/2;printf("%d",h);}
     else{printf("%d",arr[(n-1)/2]);}
 }
