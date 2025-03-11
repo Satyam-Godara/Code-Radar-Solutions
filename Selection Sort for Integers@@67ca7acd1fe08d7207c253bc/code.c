@@ -1,7 +1,7 @@
 // Your code here...
 # include<stdio.h>
 
-int bubbleSort(int * arr ,int n){
+int selectionSort(int * arr ,int n){
     for(int j=0;j<(n-1);j++){
         for(int k=0;k<(n-j-1);k++){
             if(arr[k]>arr[k+1]){
