@@ -15,6 +15,7 @@ int main(){
     for(int i=0;i<a;i++){
         if(arr[i] != max && arr[i]>maxx){maxx=arr[i];}
     }
-    printf("%d",maxx);
+    if(maxx!=-50){printf("%d",maxx);}
+    else{printf("-1");}
     return 0;
 }
