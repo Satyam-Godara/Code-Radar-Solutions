@@ -7,11 +7,11 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int max=0;
+    int max=-50;
     for(int i=0;i<a;i++){
         if(arr[i]>max){max=arr[i];}
     }
-    int maxx=0;
+    int maxx=-50;
     for(int i=0;i<a;i++){
         if(arr[i] != max && arr[i]>maxx){maxx=arr[i];}
     }
