@@ -18,7 +18,7 @@ int main(){
     for(int i=0;i<a;i++){
         if(arr[i] != min && arr[i]<max){min=arr[i];}
     }
-    if(maxx!=0){printf("%d",min);}
+    if(min!=0){printf("%d",min);}
     else{printf("-1");}
     return 0;
 }
