@@ -10,7 +10,7 @@ int main(){
     
     int min=arr[0];
     for(int i=0;i<a;i++){
-        if(arr[i]<min && arr[i]>=0,){min=arr[i];}
+        if(arr[i]<min && arr[i]>=0){min=arr[i];}
     }
 
     for(int i=0;i<a;i++){
