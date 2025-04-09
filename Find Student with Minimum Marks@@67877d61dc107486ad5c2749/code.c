@@ -19,7 +19,7 @@ int main(){
     for(int i=0;i<n-1;i++){
         if(arr[i].marks>arr[i+1].marks){max=i+1;}
     }
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",arr[max].roll,arr[max].name,arr[max].marks);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",arr[max].roll,arr[max].name,arr[max].marks);
 
 
     // for(int i=0;i<n;i++){
