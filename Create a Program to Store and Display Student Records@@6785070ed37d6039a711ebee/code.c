@@ -9,7 +9,7 @@ struct students{
 
 int main(){
     int n;
-    scanf("%d",n);
+    scanf("%d",&n);
     struct students arr[n];
 
     for(int i=0;i<n;i++){
