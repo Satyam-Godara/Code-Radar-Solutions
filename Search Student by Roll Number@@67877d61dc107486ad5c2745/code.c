@@ -23,7 +23,7 @@ int main(){
         if(arr[i].roll==r){num=i;result=1;break;}
         else{result=0;}
     }
-    (result==1)?printf("Roll Number: %d, Name: %s, Marks: %.2f",arr[i].roll,arr[i].name,arr[i].marks):printf("Student not found");
+    (result==1)?printf("Roll Number: %d, Name: %s, Marks: %.2f",arr[num].roll,arr[num].name,arr[num].marks):printf("Student not found");
 
 }
 
