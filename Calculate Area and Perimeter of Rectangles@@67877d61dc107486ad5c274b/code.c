@@ -18,6 +18,6 @@ int main(){
     for(int i=0;i<n;i++){
         float Area= arr[i].length * arr[i].breadth;
         float Perimeter= (arr[i].length+arr[i].breadth)*2;
-        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i,Area,Perimeter);
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i+1,Area,Perimeter);
     }
 }
