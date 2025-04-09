@@ -19,7 +19,7 @@ int main(){
     scanf("%f",&tsh);
     printf("Books above price %.2f:",tsh);
     for(int i=0;i<n;i++){
-        if(arr[i].price>tsh){printf("Title: %s, Author: %s, Price: %.2f",arr[i].title,arr[i].author,arr[i].price);}
+        if(arr[i].price>tsh){printf("Title: %s, Author: %s, Price: %.2f\n",arr[i].title,arr[i].author,arr[i].price);}
     }
     
 }
