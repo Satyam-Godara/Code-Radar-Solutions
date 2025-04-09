@@ -18,11 +18,12 @@ int main(){
     int r;
     scanf("%d",&r);
     int result=1;
+    int num;
     for(int i=0;i<n;i++){
-        if(arr[i].roll==r){result=1;break;}
+        if(arr[i].roll==r){num=i;result=1;break;}
         else{result=0;}
     }
     (result==1)?printf("Roll Number: %d, Name: %s, Marks: %.2f",arr[i].roll,arr[i].name,arr[i].marks):printf("Student not found");
-    
+
 }
 
