@@ -18,9 +18,9 @@ int main(){
     }
 
     for(int i=0;i<n;i++){
-        if(arr[i].type=='Car'){arr1[0]+=arr[i].toll;}
-        else if(arr[i].type=='Truck'){arr1[1]+=arr[i].toll;}
-        else if(arr[i].type=='Bike'){arr1[2]+=arr[i].toll;}
+        if(arr[i].type=="Car"){arr1[0]+=arr[i].toll;}
+        else if(arr[i].type=="Truck"){arr1[1]+=arr[i].toll;}
+        else if(arr[i].type=="Bike"){arr1[2]+=arr[i].toll;}
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",arr1[0],arr1[1],arr1[2]);
 }
