@@ -5,7 +5,7 @@ struct Vehicle{
     char number[20];
     char type[10];
     int toll;
-}
+};
 
 int main(){
     int n;
